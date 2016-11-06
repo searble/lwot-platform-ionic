@@ -1,0 +1,19 @@
+{
+  "name": "ionic",
+  "plugin": "platform",
+  "version": "0.0.1",
+  "description": "lwot platform ionic",
+  "main": "index.js",
+  "contributors": [
+    {
+      "name": "modi",
+      "email": "",
+      "web": ""
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cross-spawn": "^5.0.1",
+    "open": "0.0.5"
+  }
+}
