@@ -19,7 +19,10 @@ lwot install platform ionic #not working yet
 
 ```bash
 lwot build ionic
-lwot deploy ionic ios
-lwot deploy ionic android
-lwot run ionic
+# deploy auto remove platform and then add platform
+lwot ionic deploy ios #ionic platfrom  add ios
+lwot ionic deploy android #ionic platfrom  add android
+lwot ionic run  #ionic serve --lab
+lwot ionic run ios #ionic run ios
+lwot ionic run android #ionic run android
 ```
